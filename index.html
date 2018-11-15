@@ -86,7 +86,7 @@
     root: '/',
     scheme: 'Pisces',
     version: '6.5.0',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":true,"onmobile":false},
     fancybox: false,
     fastclick: false,
     lazyload: false,
@@ -108,20 +108,24 @@
 
 
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="Hexo">
+  <meta name="description" content="Ikeleaf&apos;s Blog">
+<meta name="keywords" content="Linux,Storage">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ikeleaf">
+<meta property="og:url" content="https://ikeleaf.github.io/index.html">
+<meta property="og:site_name" content="Ikeleaf">
+<meta property="og:description" content="Ikeleaf&apos;s Blog">
 <meta property="og:locale" content="zh-CN">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="Ikeleaf">
+<meta name="twitter:description" content="Ikeleaf&apos;s Blog">
 
 
 
 
 
 
-  <link rel="canonical" href="http://yoursite.com/">
+  <link rel="canonical" href="https://ikeleaf.github.io/">
 
 
 
@@ -131,7 +135,7 @@
   };
 </script>
 
-  <title>Hexo</title>
+  <title>Ikeleaf</title>
   
 
 
@@ -192,10 +196,14 @@
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Hexo</span>
+        <span class="site-title">Ikeleaf</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
+    
+      
+        <p class="site-subtitle">Well Well Well</p>
+      
     
   </div>
 
@@ -297,16 +305,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/14/Ikeleaf-s-Blog/">
+    <link itemprop="mainEntityOfPage" href="https://ikeleaf.github.io/2018/11/14/Ikeleaf-s-Blog/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Ikeleaf">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="description" content="Ikeleaf's Blog">
+      <meta itemprop="image" content="/uploads/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
+      <meta itemprop="name" content="Ikeleaf">
     </span>
 
     
@@ -317,7 +325,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2018/11/14/Ikeleaf-s-Blog/" class="post-title-link" itemprop="http://yoursite.com/index.html">Ikeleaf's Blog</a>
+                <a href="/2018/11/14/Ikeleaf-s-Blog/" class="post-title-link" itemprop="https://ikeleaf.github.io/index.html">Ikeleaf's Blog</a>
               
             
           </h1>
@@ -439,16 +447,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/14/hello-world/">
+    <link itemprop="mainEntityOfPage" href="https://ikeleaf.github.io/2018/11/14/hello-world/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Ikeleaf">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="description" content="Ikeleaf's Blog">
+      <meta itemprop="image" content="/uploads/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
+      <meta itemprop="name" content="Ikeleaf">
     </span>
 
     
@@ -459,7 +467,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2018/11/14/hello-world/" class="post-title-link" itemprop="http://yoursite.com/index.html">Hello World</a>
+                <a href="/2018/11/14/hello-world/" class="post-title-link" itemprop="https://ikeleaf.github.io/index.html">Hello World</a>
               
             
           </h1>
@@ -602,8 +610,10 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
+              <img class="site-author-image" itemprop="image" src="/uploads/avatar.gif" alt="Ikeleaf">
+            
               <p class="site-author-name" itemprop="name">Ikeleaf</p>
-              <p class="site-description motion-element" itemprop="description"></p>
+              <p class="site-description motion-element" itemprop="description">Ikeleaf's Blog</p>
           </div>
 
           
@@ -628,23 +638,24 @@
           
 
           
-            <div class="links-of-author motion-element">
-              
-                <span class="links-of-author-item">
-                  
-                  
-                  
-                    
-                  
-                  <a href="/ikeisa@outlook.com" title="E-Mail &rarr; ikeisa@outlook.com"><i class="fa fa-fw fa-envelope"></i></a>
-                </span>
-              
+
+          
+
+          
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-link"></i>
+                Links
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://www.google.com/ncr" title="https://www.google.com/ncr" rel="noopener" target="_blank">Google</a>
+                  </li>
+                
+              </ul>
             </div>
-          
-
-          
-
-          
           
 
           
@@ -671,7 +682,7 @@
       <div class="footer-inner">
         <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
   <span class="with-love" id="animate">
-    <i class="fa fa-user"></i>
+    <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">Ikeleaf</span>
 
@@ -681,20 +692,32 @@
 </div>
 
 
-  <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v3.8.0</div>
 
 
 
-  <span class="post-meta-divider">|</span>
-
-
-
-  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> v6.5.0</div>
 
 
 
 
         
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv" title="总访客量">
+      <i class="fa fa-user"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+    </span>
+  
+
+  
+    <span class="site-pv" title="总访问量">
+      <i class="fa fa-eye"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+    </span>
+  
+</div>
+
 
 
 
@@ -710,6 +733,8 @@
     
       <div class="back-to-top">
         <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
         
       </div>
     
@@ -742,7 +767,18 @@
 
 
 
+  
+    
+      
+        
+      
+  
+  <script type="text/javascript" color="0,0,255" opacity="0.5" zindex="-1" count="99" src="true"></script>
 
+
+
+  
+  
 
 
 
@@ -767,6 +803,16 @@
   
   
     <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/three/three.min.js"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/three/three-waves.min.js"></script>
   
 
 
